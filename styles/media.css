@@ -1,0 +1,57 @@
+.header .gitLogo {
+    height: 25px;
+}
+.banner img {
+    /* width: 100%; */
+}
+.top-menu li a {
+    font-size: 12px;
+}
+.container {
+    flex-direction: column-reverse;
+}
+.sidebar {
+    width: 100%;
+    text-align: center;
+}
+.sidebar img {
+    margin: 10px 5px 10px;
+}
+.content {
+    margin-left: 0;
+}
+@media all and (max-width: 580px) {
+    .header li,
+    .banner {
+        display: none;
+    }
+    .sidebar-menu {
+        margin-bottom: 5px;
+    }
+    .sidebar img {
+        width: 100%;
+        margin:  5px auto;
+    }
+    .content h2 {
+        font-size: 26px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .box-text {
+        flex-direction: column;
+    }
+    .box-text img {
+        margin: 0;
+        height: 150px;
+    }
+    .text {
+        padding: 10px;
+    }
+    .text h3 {
+        font-size: 20px;
+        margin: 5px 0 0;
+    }
+
+
+}
