@@ -1,9 +1,6 @@
 header .gitLogo {
     height: 25px;
 }
-.header [type="checkbox"]{
-    display: none;
-}
 .header label.toggleMenu {
     background-color: #C9C9C9;
     display: block;
