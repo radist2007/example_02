@@ -1,5 +1,14 @@
-.header .gitLogo {
+header .gitLogo {
     height: 25px;
+}
+.header [type="checkbox"]{
+    display: none;
+}
+.header label.toggleMenu {
+    background-color: #C9C9C9;
+    display: block;
+    padding: 10px;
+    text-align: center;
 }
 .banner img {
     /* width: 100%; */
@@ -21,7 +30,21 @@
     margin-left: 0;
 }
 @media all and (max-width: 580px) {
-    .header li,
+    .header li {
+        overflow: hidden;
+        display: none;
+    }
+    .header ul {
+        display: block;
+        text-align: center;
+    }
+    input.toggleMenu:checked + label.toggleMenu {
+        background-color: #000;
+        color: #fff;
+    }
+    input.toggleMenu:checked ~ .top-menu li {
+        display: block;
+    }
     .banner {
         display: none;
     }

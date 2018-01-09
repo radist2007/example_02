@@ -36,7 +36,12 @@ ul.top-menu {
 }
 .top-menu li:hover {
     background-color: #153243;
-    transition: 1s;
+}
+.header label.toggleMenu {
+    display: none;
+}
+.header [type="checkbox"]{
+    display: none;
 }
 .banner img {
     margin: auto;
@@ -100,6 +105,8 @@ ul.top-menu {
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-bottom: 8px;
+    /* border-bottom: 1px solid #525252; */
 }
 .box-text img {
     margin-right: 10px;
