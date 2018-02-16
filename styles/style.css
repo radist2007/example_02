@@ -18,6 +18,7 @@ body {
     width: auto;
     margin: 10px
 }
+
 ul.top-menu {
     margin: 0;
     padding: 0;
@@ -43,10 +44,19 @@ ul.top-menu {
 .header [type="checkbox"]{
     display: none;
 }
+
 .banner img {
     margin: auto;
     width: 100%;
 }
+
+.banner-tween {
+    height: 250px;
+    width: 1000px;
+    background-color: #000;
+    color: #fff;
+}
+
 .container {
     display: flex;
     padding-top: 10px;

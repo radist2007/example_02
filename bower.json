@@ -1,0 +1,21 @@
+{
+  "name": "websiteLayoutExample_01",
+  "homepage": "https://github.com/radist2007/exapmle_01",
+  "authors": [
+    "Alex <izofatov2007@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "tweenlite": "^1.11.5"
+  }
+}

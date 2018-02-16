@@ -3,7 +3,7 @@ header .gitLogo {
 }
 .header label.toggleMenu {
     background-color: #C9C9C9;
-    display: block;
+    display: none;
     padding: 10px;
     text-align: center;
 }
@@ -27,6 +27,9 @@ header .gitLogo {
     margin-left: 0;
 }
 @media all and (max-width: 580px) {
+    .header label.toggleMenu {
+        display: block;
+    }
     .header li {
         overflow: hidden;
         display: none;
