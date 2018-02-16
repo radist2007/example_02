@@ -16,6 +16,8 @@
     "tests"
   ],
   "devDependencies": {
-    "tweenlite": "^1.11.5"
+    "tweenlite": "^1.11.5",
+    "jquery": "^3.3.1",
+    "gsap": "^1.20.4"
   }
 }

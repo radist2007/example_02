@@ -78,3 +78,8 @@ header .gitLogo {
 
 
 }
+@media all and (max-width: 370px) {
+    #hero-banner__h2 {
+        font-size: 80px;
+    }
+}
