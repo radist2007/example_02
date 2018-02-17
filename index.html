@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Example_02</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style-index.css">
   <link rel="stylesheet" href="styles/media.css" media="all and (max-width: 820px)">
 </head>
 <body>
   <div class="wrapper">
+    <!-- HEADER -->
     <div class="header">
       <div class="header__logos">
         <img class="logo" src="img/html.png" alt="html">
@@ -17,7 +18,7 @@
         <img class="logo" src="img/js.png" alt="js">
         <img class="logo" src="img/logo-man.svg" alt="logo-man">
         <img class="logo" src="img/scrollMagic.png" alt="scrollMagic">
-        <img class="logo" src="img/github-256.png" alt="github">
+        <img class="logo" src="img/octocat.png" alt="github">
       </div>
       <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
       <label for="menu" class="toggleMenu">MENU</label>
@@ -29,79 +30,79 @@
         <li><a href="#">ScrollMagic</a></li>
         <li><a href="#">Github</a></li>
       </ul>
-      <div id="hero-banner" class="hero-banner">
-        <div class="hero-banner__wrapper">
-          <h2 id="hero-banner__h2">GSAP</h2>
-          <div class="hero-banner__img">
-          <img id="hero-banner__logo" class="gitLogo" src="img/github-256.png" alt="github">
-            <p id="hero-banner__p" class="hero-banner__p">Think of GSAP as the Swiss Army Knife of javascript animation... but better, much better! <span>GreenSock Animation Platform (GSAP)</span></p>
-          </div>
-        </div>
-      </div>
     </div>
+    <!-- END HEADER -->
+
+    <!-- CONTAINER -->
     <div class="container">
-      <!-- <div class="sidebar">
-        <ul class="sidebar-menu">
-          <li><a href="#">HTML / HTML5</a></li>
-          <li><a href="#">CSS / CSS3</a></li>
-          <li><a href="#">FlexBox</a></li>
-          <li><a href="#">JavaScript</a></li>
-          <li><a href="./gsap.html">GSAP</a></li>
-          <li><a href="#">ScrollMagic</a></li>
-        </ul>
-        <div class="sidebar__banner">
-          <img src="img/logo-man.svg" alt="logo-man">
-          <h2 id="sidebar-banner__h2">GSAP</h2>
-          <h3 id="TL">TweenLite</h3>
-          <h3 id="TM">TweenMax</h3>
-          <h3 id="TlL">TimelineLite</h3>
-          <h3 id="TlM">TimelineMax</h3>
-        </div>
-        <div class="sidebar__banner">
-          <img src="img/logo-man.svg" alt="logo-man">
-          <h2 id="sidebar-banner__h2">GSAP</h2>
-          <h3 id="TL">TweenLite</h3>
-          <h3 id="TM">TweenMax</h3>
-          <h3 id="TlL">TimelineLite</h3>
-          <h3 id="TlM">TimelineMax</h3>
+      <!-- HTML banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img class="banner__img" src="img/html.png" alt="html">
+          <h2 class="banner__h2 html-banner__h2">HTML</h2>
+          <h3 class="banner__h3 html-banner__h3">Hypertext Markup Language (HTML)</h3>
+          <p class="banner__p">is the standard markup language for creating web pages and web applications! </p>
         </div>
       </div>
-      <div class="content">
-        <h2>CSAP</h2>
-        <p>Think of GSAP as the Swiss Army Knife of javascript animation...but better. It animates anything JavaScript can touch (CSS properties, canvas library objects, SVG, generic objects, whatever) and it solves countless browser inconsistencies, all with blazing speed (up to 20x faster than jQuery), including automatic GPU-acceleration of transforms.</p>
-        <div class="box-text">
-          <img src="img/tweenlite.jpg" alt="img">
-          <div class="text">
-            <h3>TweenLite</h3>
-            <p>TweenLite is the fast, lightweight, and flexible core of GSAP (GreenSock Animation Platform), a JavaScript library for HTML5 animation.</p>
-          </div>
+      <!-- END HTML banner -->
+      <!-- CSS banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img class="banner__img" src="img/css.png" alt="css">
+          <h2 class="banner__h2 css-banner__h2">CSS</h2>
+          <h3 class="banner__h3 css-banner__h3">Cascading Style Sheets (CSS)</h3>
+          <p class="banner__p css-banner__p">is a style sheet language used for describing the presentation of a document written in a markup language. </p>
         </div>
-        <div class="box-text">
-          <img src="img/tweenmax.jpg" alt="img">
-          <div class="text">
-            <h3>TweenMax</h3>
-            <p>TweenMax extends TweenLite, adding many useful (but non-essential) features like repeat(), repeatDelay(), yoyo(), staggered tweens, and more. It also includes many extra tools and plugins by default, making it extremely full-featured (TweenLite, TimelineLite, TimelineMax, CSSPlugin, AttrPlugin, RoundPropsPlugin, DirectionalRotationPlugin, BezierPlugin, and EasePack).</p>
-          </div>
+      </div>
+      <!-- CSS HTML banner -->
+      <!-- JS banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img class="banner__img" src="img/js.png" alt="js">
+          <h2 class="banner__h2 js-banner__h2">JS</h2>
+          <h3 class="banner__h3 js-banner__h3">JavaScript (JS)</h3>
+          <p class="banner__p js-banner__p"> is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.</p>
         </div>
-        <div class="box-text">
-          <img src="img/timelinelite.jpg" alt="img">
-          <div class="text">
-            <h3>TimelineLite</h3>
-            <p>TimelineLite is a lightweight, intuitive timeline class for building and managing sequences of TweenLite, TweenMax, TimelineLite, and/or TimelineMax instances. You can think of a TimelineLite instance like a container where you place tweens (or other timelines) over the course of time.</p>
-          </div>
+      </div>
+      <!-- END JS banner -->
+      <!-- GSAP banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <h2 id="gsap-banner__h2">GSAP</h2>
+          <img class="gsap-banner__img" src="img/logo-man.svg" alt="gsap">
+          <p id="gsap-banner__p" class="gsap-banner__p">Think of GSAP as the Swiss Army Knife of javascript animation... but better, much better! <span>GreenSock Animation Platform (GSAP)</span></p>
         </div>
-        <div class="box-text">
-          <img src="img/timelinemax.jpg" alt="img">
-          <div class="text">
-            <h3>TimelineMax</h3>
-            <p>TimelineMax extends TimelineLite, offering exactly the same functionality plus useful (but non-essential) features like repeat, repeatDelay, yoyo, currentLabel(), tweenTo(), tweenFromTo(), getLabelAfter(), getLabelBefore(), getActive() and more.TimelineMax is GSAP's most powerful and feature-packed sequencing tool.</p>
-          </div>
+      </div>
+      <!-- END GSAP banner -->
+      <!-- ScrollMagic banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img class="banner__img" src="img/scrollMagic.png" alt="scrollMagic">
+          <h2 class="banner__h2 sm-banner__h2">ScrollMagic</h2>
+          <h3 class="banner__h3 sm-banner__h3">Scroll Magic</h3>
+          <p class="banner__p sm-banner__p">The javascript library for magical scroll interactions. </p>
         </div>
-      </div> -->
+      </div>
+      <!-- END ScrollMagic banner -->
+      <!-- GIT banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <img class="banner__img" src="img/git.png" alt="git">
+          <img id="octocat" class="banner__img" src="img/octocat.png" alt="octocat">
+          <h2 class="banner__h2 git-banner__h2">GIT</h2>
+          <h3 class="banner__h3 git-banner__h3">Git & github</h3>
+          <p class="banner__p git-banner__p">The javascript library for magical scroll interactions. </p>
+        </div>
+      </div>
+      <!-- END GIT banner -->
     </div>
+    <!-- END CONTAINER -->
+
+    <!-- FOOTER -->
     <div class="footer">
       <p>Example for Github</p>
     </div>
+    <!-- END FOOTER -->
   </div>
   <!-- <script src="lib/TweenLite.js"></script> -->
   <!-- <script src="lib/CSSPlugin.js"></script> -->
