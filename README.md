@@ -2,11 +2,13 @@
 
 ### Responsive
 
-A training project designed to demonstrate the capabilities and skills in creating web pages.
+A training project designed to demonstrate the tools, capabilities and skills in creating web pages.
 
 ### Use:
 
 * HTML
 * CSS 
 * JS
-* GSAP - TweenLite
+* GSAP
+
+#### 2018

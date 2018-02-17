@@ -1,14 +1,14 @@
-header .gitLogo {
+.logo {
     height: 25px;
 }
-.header label.toggleMenu {
+label.toggleMenu {
     background-color: #C9C9C9;
     display: none;
     padding: 10px;
     text-align: center;
 }
 .banner img {
-    /* width: 100%; */
+    width: 100%;
 }
 .top-menu li a {
     font-size: 12px;
@@ -27,6 +27,12 @@ header .gitLogo {
     margin-left: 0;
 }
 @media all and (max-width: 580px) {
+    .hero-banner__p span {
+        line-height: 28px;
+        color: var(--gsap);
+        line-height: 20px;
+        opacity: 1;
+    }
     .header label.toggleMenu {
         display: block;
     }
@@ -63,19 +69,26 @@ header .gitLogo {
     }
     .box-text {
         flex-direction: column;
+    /* height: 100px;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 10px; */
     }
     .box-text img {
         margin: 0;
         height: 150px;
     }
-    .text {
-        padding: 10px;
+    .sidebar__banner img {
+        position: absolute;
+        right: 10%;
+        bottom: 30px;
+        width: auto;
     }
-    .text h3 {
-        font-size: 20px;
-        margin: 5px 0 0;
+    .sidebar__banner h3 {
+        left: 45px;
+        font-size: 18px;
+        color: var(--gsap);
     }
-
 
 }
 @media all and (max-width: 370px) {
